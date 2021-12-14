@@ -4,5 +4,4 @@
 
 # 雛型設計
 ![This is an image](/image/Design drawing.jpg)
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
 
