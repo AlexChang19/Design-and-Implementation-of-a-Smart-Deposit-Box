@@ -3,4 +3,6 @@
 # 構思
 
 # 雛型設計
-[/images/DesignDrawing.jpg]
+![/images/DesignDrawing.jpg]
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+
