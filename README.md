@@ -3,6 +3,6 @@
 # 構思
 
 # 雛型設計
-![](https://github.com/AlexChang19/Design-and-Implementation-of-a-Smart-Deposit-Box/blob/b88169596e74f28d90fae41b5d6b03dff08f93bb/image/Design%20drawing.jpg)
+![Design drawing](https://github.com/AlexChang19/Design-and-Implementation-of-a-Smart-Deposit-Box/blob/b88169596e74f28d90fae41b5d6b03dff08f93bb/image/Design%20drawing.jpg)
 
-![This is an image]()
+![This is an image](/Design-and-Implementation-of-a-Smart-Deposit-Box/blob/b88169596e74f28d90fae41b5d6b03dff08f93bb/image/Design drawing.jpg)
