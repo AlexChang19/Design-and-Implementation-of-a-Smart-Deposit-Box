@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".select_login_method">
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:gravity="center_vertical|left"
+                android:text="   Select Login Method"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="471dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/Login_with_User"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="Login with User"
+                    android:textAllCaps="false"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/Login_with_IMEI"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="Login with IMEI"
+                    android:textAllCaps="false"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/Create_New_User"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="Create New User "
+                    android:textAllCaps="false"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/Remove_User"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Remove User "
+                    android:textAllCaps="false"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/Shut_Down_App"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Shut Down App"
+                    android:textAllCaps="false"
+                    android:textSize="15dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".create_new_user">
+
+    <ScrollView
+        android:layout_width="348dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IMEI Number "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/IMEI_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:text="New User Infomation"
+                android:textSize="18sp" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/new_username"
+                    android:layout_width="336dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:digits="0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                    android:ems="10"
+                    android:hint="User Name"
+                    android:importantForAutofill="no"
+                    android:inputType="textPersonName"
+                    android:maxLength="15"
+                    android:maxLines="1"
+                    android:selectAllOnFocus="true"
+                    android:textAllCaps="false" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/new_password"
+                    android:layout_width="336dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:digits="0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                    android:ems="10"
+                    android:hint="Pass Word "
+                    android:importantForAutofill="no"
+                    android:inputType="textPersonName"
+                    android:maxLength="15"
+                    android:maxLines="1"
+                    android:selectAllOnFocus="true"
+                    android:textAllCaps="false" />
+
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/Create_New_User"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Create New User"
+                android:textAllCaps="false"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/back_select_method"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Back Login Method"
+                android:textAllCaps="false"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
